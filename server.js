@@ -12,10 +12,28 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/css/about.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'about.css'));
 });
+app.get('/ui/css/grid.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'grid.css'));
+});
+app.get('/ui/css/ie.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'ie.css'));
+});
+app.get('/ui/css/main.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.css'));
+});
+app.get('/ui/css/modal.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'modal.css'));
+});
+app.get('/ui/css/normalize.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'normalize.css'));
+});
+app.get('/ui/css/owl.corousel.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'owl.corousel.css'));
+});
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
