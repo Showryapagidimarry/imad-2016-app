@@ -8,6 +8,10 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.html'));
 });
+app.get('/about.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
 
 app.get('/img/slide-1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/img', 'slide-1.jpg'));
