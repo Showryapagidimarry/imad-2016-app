@@ -33,6 +33,28 @@ app.get('/ui/css/normalize.css', function (req, res) {
 app.get('/ui/css/owl.corousel.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'css', 'owl.corousel.css'));
 });
+app.get('/ui/js/bootstrap.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'bootstrap.min.js'));
+});
+app.get('/ui/js/dropdown.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'dropdown.js'));
+});
+app.get('/ui/js/jquery.validate.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'jquery.validate.js'));
+});
+app.get('/ui/js/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'main.js'));
+});
+app.get('/ui/js/vendor/modernizer.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'vendor', 'modernizer.js'));
+});
+app.get('/ui/js/vendor/owl.carousel.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'vendor', 'owl.carousel.min.js'));
+});
+app.get('/ui/js/vendor/respond.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'vendor', 'respond.min.js'));
+});
+
 
 
 
