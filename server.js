@@ -13,46 +13,46 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/ui/css/about.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'about.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'about.css'));
 });
 app.get('/ui/css/grid.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'grid.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'grid.css'));
 });
 app.get('/ui/css/ie.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'ie.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'ie.css'));
 });
 app.get('/ui/css/main.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'main.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'main.css'));
 });
 app.get('/ui/css/modal.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'modal.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'modal.css'));
 });
 app.get('/ui/css/normalize.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'normalize.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'normalize.css'));
 });
 app.get('/ui/css/owl.corousel.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'css', 'owl.corousel.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'owl.corousel.css'));
 });
 app.get('/ui/js/bootstrap.min.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'js', 'bootstrap.min.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'bootstrap.min.js'));
 });
 app.get('/ui/js/dropdown.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'js', 'dropdown.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'dropdown.js'));
 });
 app.get('/ui/js/jquery.validate.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'js', 'jquery.validate.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'jquery.validate.js'));
 });
 app.get('/ui/js/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'js', 'main.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 app.get('/ui/js/vendor/modernizer.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'vendor', 'modernizer.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'modernizer.js'));
 });
 app.get('/ui/js/vendor/owl.carousel.min.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'vendor', 'owl.carousel.min.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'owl.carousel.min.js'));
 });
 app.get('/ui/js/vendor/respond.min.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'vendor', 'respond.min.js'));
+  res.sendFile(path.join(__dirname, 'ui', 'respond.min.js'));
 });
 
 
