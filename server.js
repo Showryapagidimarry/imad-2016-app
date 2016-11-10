@@ -13,25 +13,25 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/ui/css/about.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'about.css'));
+  res.sendFile(path.join(__dirname, 'css', 'about.css'));
 });
 app.get('/ui/css/grid.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'grid.css'));
+  res.sendFile(path.join(__dirname, 'css', 'grid.css'));
 });
 app.get('/ui/css/ie.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'ie.css'));
+  res.sendFile(path.join(__dirname, 'css', 'ie.css'));
 });
 app.get('/ui/css/main.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.css'));
+  res.sendFile(path.join(__dirname, 'css', 'main.css'));
 });
 app.get('/ui/css/modal.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'modal.css'));
+  res.sendFile(path.join(__dirname, 'css', 'modal.css'));
 });
 app.get('/ui/css/normalize.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'normalize.css'));
+  res.sendFile(path.join(__dirname, 'css', 'normalize.css'));
 });
 app.get('/ui/css/owl.corousel.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'owl.corousel.css'));
+  res.sendFile(path.join(__dirname, 'css', 'owl.corousel.css'));
 });
 
 
