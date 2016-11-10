@@ -45,8 +45,8 @@ app.get('/ui/js/jquery.validate.js', function (req, res) {
 app.get('/ui/js/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-app.get('/ui/js/vendor/modernizer.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'modernizer.js'));
+app.get('/ui/js/vendor/modernizr.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'modernizr.js'));
 });
 app.get('/ui/js/vendor/owl.carousel.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'owl.carousel.min.js'));
