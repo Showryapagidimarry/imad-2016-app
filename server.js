@@ -9,6 +9,26 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.html'));
 });
 
+app.get('/img/slide-1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/img', 'slide-1.jpg'));
+});
+app.get('/img/slide-2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/img', 'slide-2.jpg'));
+});
+app.get('/img/slide-3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/img', 'slide-3.jpg'));
+});
+app.get('/img/hero.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/img', 'hero.jpg'));
+});
+
+app.get('/img/v2/iphone-bg-lg.min.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/img/v2', 'iphone-bg-lg.min.png'));
+});
+app.get('/img/v2/iphone6.min.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/img/v2', 'iphone6.min.png'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
@@ -30,8 +50,8 @@ app.get('/css/modal.css', function (req, res) {
 app.get('/css/normalize.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/css', 'normalize.css'));
 });
-app.get('/css/owl.corousel.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/css', 'owl.corousel.css'));
+app.get('/css/owl.carousel.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/css', 'owl.carousel.css'));
 });
 app.get('/js/bootstrap.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', 'bootstrap.min.js'));
